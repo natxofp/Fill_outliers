@@ -12,6 +12,7 @@ Three different methods are implemented to find the outliers:
 Example: 
 fill_outliers(data, method, window)
     data = [1, 2, 100000, 4, 5, 7, 9, 15, NaN, 8, 9]
+    
     method = "mean"
     # mean method
     expected_mean = [1.0, 2.0, 100000.0, 4.0, 5.0, 7.0, 9.0, 15.0, 11.5, 8.0, 9.0]
