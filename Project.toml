@@ -1,7 +1,7 @@
 name = "Fill_outliers"
 uuid = "64981851-32c5-41a4-a33e-fde5a009d9bd"
 authors = ["Ignasi Fernandez"]
-version = "1.0.0-DEV"
+version = "1.0.0"
 
 [compat]
 julia = "1"
