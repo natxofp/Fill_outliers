@@ -3,6 +3,7 @@
 [![Build Status](https://github.com/natxofp/Fill_outliers.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/natxofp/Fill_outliers.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
 This packages finds the outliers in a vector and fills them with a linear interpolation between closest non outlier/NaN/missing neighbours.
+
 Three different methods are implemented to find the outliers:
 - `mean`: Outliers are those values that are 3 `std` times the standard deviation away from the mean.
 - `quartiles`: Outliers are those values that are outside the 25 and 75 quartile.
