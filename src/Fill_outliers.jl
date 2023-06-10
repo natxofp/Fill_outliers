@@ -5,7 +5,7 @@ using Statistics
 using DataFrames
 using StatsBase
 
-function fill_outliers(data, method, window=3)
+function fill_outliers(data, method, window)
     function detect_outliers(data, method, window)
         data = replace(data, NaN => missing)
         if method == "mean"
